@@ -173,7 +173,7 @@
         android:padding="12dp"
         app:layout_constraintCircle="@id/center"
         app:layout_constraintCircleAngle="0"
-        app:layout_constraintCircleRadius="80dp"></TextView>
+        app:layout_constraintCircleRadius="90dp"></TextView>
 
     <TextView
         android:id="@+id/col2"
