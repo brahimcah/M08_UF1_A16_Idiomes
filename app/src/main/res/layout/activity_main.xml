@@ -11,11 +11,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="12dp"
         android:gravity="center"
         android:text="@string/els_colors"
         app:layout_constraintBottom_toTopOf="@+id/num12"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"></TextView>
 
     <TextView
@@ -83,18 +84,19 @@
         android:textSize="12sp"
         app:layout_constraintCircle="@id/center"
         app:layout_constraintCircleAngle="150"
-        app:layout_constraintCircleRadius="120dp" ></TextView>
+        app:layout_constraintCircleRadius="110dp"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="449dp"></TextView>
 
     <TextView
         android:id="@+id/num6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/marro"
-
         android:textSize="12sp"
         app:layout_constraintCircle="@id/center"
         app:layout_constraintCircleAngle="180"
-        app:layout_constraintCircleRadius="120dp" ></TextView>
+        app:layout_constraintCircleRadius="110dp" ></TextView>
 
     <TextView
         android:id="@+id/num7"
@@ -105,7 +107,7 @@
         android:textSize="12sp"
         app:layout_constraintCircle="@id/center"
         app:layout_constraintCircleAngle="210"
-        app:layout_constraintCircleRadius="120dp" ></TextView>
+        app:layout_constraintCircleRadius="110dp" ></TextView>
 
     <TextView
         android:id="@+id/num8"
