@@ -1,3 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">M08_UF1_E6_Idiomes</string>
+    <string name="blau">Blau</string>
+    <string name="els_colors">Els Colors</string>
+    <string name="fucsia">Fúcsia</string>
+    <string name="plata">Plata</string>
+    <string name="negra">Negra</string>
+    <string name="gris">Gris</string>
+    <string name="vermell">Vermell</string>
+    <string name="marro">Marró</string>
+    <string name="taronja">Taronja</string>
+    <string name="groc">Groc</string>
+    <string name="oliva">Oliva</string>
+    <string name="lima">Lima</string>
+    <string name="verd">Verd</string>
 </resources>

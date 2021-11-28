@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">M08_UF1_E6_Languege</string>
+    <string name="els_colors">The Colors</string>
+    <string name="blau">Blue</string>
+    <string name="plata">Silver</string>
+    <string name="negra">Black</string>
+    <string name="gris">Grey</string>
+    <string name="vermell">Red</string>
+    <string name="marro">Brown</string>
+    <string name="fucsia">Fuchsia</string>
+    <string name="taronja">Orange</string>
+    <string name="groc">Yellow</string>
+    <string name="oliva">Olive</string>
+    <string name="lima">Lime</string>
+    <string name="verd">Green</string>
+</resources>

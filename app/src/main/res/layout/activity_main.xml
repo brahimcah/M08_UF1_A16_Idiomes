@@ -11,12 +11,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="32dp"
         android:gravity="center"
-        android:text="ELS COLORS"
-        android:textColor="@color/colorBlack"
+        android:text="@string/els_colors"
         app:layout_constraintBottom_toTopOf="@+id/num12"
-        tools:layout_editor_absoluteX="165dp"></TextView>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></TextView>
 
     <TextView
         android:id="@+id/center"
@@ -34,8 +34,8 @@
         android:id="@+id/num1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Fúcsia"
-        android:textColor="@color/black"
+        android:text="@string/fucsia"
+
         android:textSize="12sp"
         app:layout_constraintCircle="@id/center"
         app:layout_constraintCircleAngle="30"
@@ -45,8 +45,8 @@
         android:id="@+id/num2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Plata"
-        android:textColor="@color/black"
+        android:text="@string/plata"
+
         android:textSize="12sp"
         app:layout_constraintCircle="@id/center"
         app:layout_constraintCircleAngle="60"
@@ -56,8 +56,8 @@
         android:id="@+id/num3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Gris"
-        android:textColor="@color/black"
+        android:text="@string/gris"
+
         android:textSize="12sp"
         app:layout_constraintCircle="@id/center"
         app:layout_constraintCircleAngle="90"
@@ -67,8 +67,8 @@
         android:id="@+id/num4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Negre"
-        android:textColor="@color/black"
+        android:text="@string/negra"
+
         android:textSize="12sp"
         app:layout_constraintCircle="@id/center"
         app:layout_constraintCircleAngle="120"
@@ -78,8 +78,8 @@
         android:id="@+id/num5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Vermell"
-        android:textColor="@color/black"
+        android:text="@string/verd"
+
         android:textSize="12sp"
         app:layout_constraintCircle="@id/center"
         app:layout_constraintCircleAngle="150"
@@ -89,8 +89,8 @@
         android:id="@+id/num6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Marró"
-        android:textColor="@color/black"
+        android:text="@string/marro"
+
         android:textSize="12sp"
         app:layout_constraintCircle="@id/center"
         app:layout_constraintCircleAngle="180"
@@ -100,8 +100,8 @@
         android:id="@+id/num7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Taronja"
-        android:textColor="@color/black"
+        android:text="@string/taronja"
+
         android:textSize="12sp"
         app:layout_constraintCircle="@id/center"
         app:layout_constraintCircleAngle="210"
@@ -111,8 +111,8 @@
         android:id="@+id/num8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Groc"
-        android:textColor="@color/black"
+        android:text="@string/groc"
+
         android:textSize="12sp"
         app:layout_constraintCircle="@id/center"
         app:layout_constraintCircleAngle="239"
@@ -122,8 +122,8 @@
         android:id="@+id/num9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Oliva"
-        android:textColor="@color/black"
+        android:text="@string/oliva"
+
         android:textSize="12sp"
         app:layout_constraintCircle="@id/center"
         app:layout_constraintCircleAngle="270"
@@ -133,8 +133,8 @@
         android:id="@+id/num10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lima"
-        android:textColor="@color/black"
+        android:text="@string/lima"
+
         android:textSize="12sp"
         app:layout_constraintCircle="@id/center"
         app:layout_constraintCircleAngle="300"
@@ -144,8 +144,8 @@
         android:id="@+id/num11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Verd"
-        android:textColor="@color/black"
+        android:text="@string/verd"
+
         android:textSize="12sp"
         app:layout_constraintCircle="@id/center"
         app:layout_constraintCircleAngle="330"
@@ -155,8 +155,8 @@
         android:id="@+id/num12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Blau"
-        android:textColor="@color/black"
+        android:text="@string/blau"
+
         android:textSize="12sp"
         app:layout_constraintCircle="@id/center"
         app:layout_constraintCircleAngle="0"
